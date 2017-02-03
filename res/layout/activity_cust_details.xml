@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/tryimage">
+
+     <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tname"
+        android:layout_marginTop="32dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" 
+        android:paddingTop="60dp"/>
+    
+    <EditText
+        android:id="@+id/tcon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:hint="Contact_no." />
+    
+    <EditText
+        android:id="@+id/tmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="20dp"
+        android:hint="Email-id" />
+    
+    <EditText
+        android:id="@+id/tadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="20dp"
+        android:hint="Delivery address" />
+    
+     <EditText 
+        android:id="@+id/etQty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="20dp"
+        android:hint="Total Quantity"/>
+     
+     <TextView 
+         android:id="@+id/tTotal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"/>
+    
+    <Button 
+        android:id="@+id/btnPlace"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="50dp"
+         android:layout_gravity="center"
+        android:text="PLACE ORDER"/>
+    
+     </LinearLayout>
+    </ScrollView>
+
+     <TextView
+         android:id="@+id/tvC"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:text="Customer Details"
+         android:textSize="28dp"
+         android:paddingTop="20dp" />
+    
+</RelativeLayout>
